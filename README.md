@@ -1,95 +1,118 @@
 # awesome-asyncio-cn [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> 一个精心准备的 Python asyncio 优秀资源列表，囊括了网络框架，库，软件以及资源。
+> Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源。
 
-[awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [timofurrer](https://github.com/timofurrer) 发起维护的 Python asyncio 资源列表。本项目是其中文版，用于收集关于 Asyncio 的优秀资源，供大家探索发现 Python 的异步编程世界。
+[Awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [Timo Furrer](https://github.com/timofurrer) 发起并维护的 Python Asyncio 资源列表。本项目是其中文版，在这里，收集了大量的 [Asyncio](https://docs.python.org/3/library/asyncio.html) 的最棒、最新的资源，供大家探索 Python 异步编程世界。
 
-Python [asyncio](https://docs.python.org/3/library/asyncio.html) 模块是 Python3.4+ 引入的标准库，内置了对异步 IO 的支持。asyncio 的编程模型类似一个消息循环，从 asyncio 模块中直接获取一个 EventLoop 的引用，然后把需要执行的协程放到 EventLoop 中执行，就实现了异步 IO。asyncio 是由 Python 之父 Guido 领导的的项目，该项目被命名为 tulip（郁金香）。asyncio 绝对是 Python3 中最雄心勃勃的库，该库的引入使得我们现在可以很方便的编写异步代码。但 asyncio 对于 Python 社区来说并不是一个新鲜的技术，一些社区有名的第三库如 Twisted、gevent 早已经用到了异步编程模型。
+Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O 访问 Socket 和其他资源来编写单线程并发代码，并在网络客户端与服务器上运行。Asyncio 内置了对异步 I/O 的支持，其编程模型类似于消息循环，从 Asyncio 模块可以直接获取 EventLoop 引用，再把需要执行的协程放到 EventLoop 中执行，就实现了异步 I/O。Asyncio 是由 Python 之父 Guido 领导的项目，该项目被命名为 Tulip（郁金香）。
+
+[Asyncio](https://docs.python.org/3/library/asyncio.html) 并不是新出现的黑科技，一些社区有名的第三库如 Twisted、gevent 早就推出了异步编程模型。不过，自从 2016 年 3 月，Python 3.4 推出以后，这两年来，Asyncio 变得越来越流行，并且特别受到 Python 社区追捧。
+
+
+## 贡献代码
+
+欢迎大家为列表贡献高质量的新资源，提交 PR 时请参照以下要求
+
+* 注明推荐理由
+* 确保项目相对活跃
+
+## 目录
+
+* [Web 框架](#Web 框架)
+* [消息队列](#消息队列)
+* [数据库驱动](#数据库驱动)
+* [网络](#网络)
+* [测试](#测试)
+* [备选事件循环](#备选事件循环)
+* [其他](#其他)
+* [文献](#文献)
+* [演讲](#演讲)
 
 
 ## Web 框架
 
-*构建 Web 应用*
+*构建 Web 应用的库*
 
-* [aiohttp](https://github.com/KeepSafe/aiohttp) - 基于 asyncio (PEP-3156) 的异步 HTTP 客户端/服务端网络库。
-* [sanic](https://github.com/channelcat/sanic) - Python 3.5+ web 框架，主打速度与性能。
-* [Quart](https://gitlab.com/pgjones/quart) - 一个 asyncio web 微框架，API 与 Flask 相似。
-* [Kyoukai](https://github.com/SunDwarf/Kyoukai) - 使用 asyncio 编写的 Python3.5+ 完全异步 Web 框架。
-* [cirrina](https://github.com/neolynx/cirrina) - 基于 aiohttp 的有主见的异步 Web 框架。
-* [autobahn](https://github.com/crossbario/autobahn-python) - 提供 WebSocket 和 WAMP 客户端/服务端，可用于 asyncio 和 Twisted。
-* [websockets](https://github.com/aaugustin/websockets/) - Python 实现的构建 WebSocket 客户端/服务端，专注于编写正确却简单的代码的异步库。
+* [aiohttp](https://github.com/KeepSafe/aiohttp) - 支持 Asyncio (PEP-3156) 的 HTTP 客户端/服务端网络库。
+* [sanic](https://github.com/channelcat/sanic) - Python 3.5+ Web 服务器，主打速度与性能。
+* [Quart](https://gitlab.com/pgjones/quart) - 支持 Asyncio 的 Web 微框架，使用与 Flask 相同的 API。
+* [Kyoukai](https://github.com/SunDwarf/Kyoukai) - 使用 Asyncio 编写的 Python3.5+ 完全异步 Web 框架。
+* [cirrina](https://github.com/neolynx/cirrina) - 基于 aiohttp 的异步 Web 框架。
+* [autobahn](https://github.com/crossbario/autobahn-python) - 支持 Asyncio 与 Twisted 的 WebSocket 及 WAMP，用于客户端与服务端。
+* [websockets](https://github.com/aaugustin/websockets/) - Python 构建的 WebSocket 客户端/服务端的库，致力于简洁、正确地编写代码。
 * [Tornado](http://www.tornadoweb.org/en/stable/) - 高性能 Web 框架以及异步网络库。
+* [Japronto!](https://github.com/squeaky-pl/japronto) - 基于 uvloop 和 picohttpparse 构建的实验性 HTTP 工具箱。
 
 ## 消息队列
 
-*为应用使用消息队列*
+*使用消息队列执行应用的库*
 
-* [aioamqp](https://github.com/Polyconseil/aioamqp) - AMQP 的 asyncio 异步实现。
-* [aiozmq](https://github.com/aio-libs/aiozmq) - ZeroMQ 的 Asyncio (pep 3156) 实现。
-* [crossbar](https://github.com/crossbario/crossbar) - Crossbar.io 是一个分布式和微服务应用的网络平台。
+* [aioamqp](https://github.com/Polyconseil/aioamqp) - 使用 Asyncio 异步执行 AMQP。
+* [aiozmq](https://github.com/aio-libs/aiozmq) - 集成了 Asyncio (pep 3156) 的 ZeroMQ。
+* [crossbar](https://github.com/crossbario/crossbar) - Crossbar.io 是提供分布式和微服务应用的网络平台。
 
 ## 数据库驱动
 
-*提供数据库连接驱动*
+*数据库的驱动库*
 
-* [asyncpg](https://github.com/MagicStack/asyncpg) - 快速的 PostgreSQL 异步数据库驱动。
-* [aiopg](https://github.com/aio-libs/aiopg/) -另一个 PostgreSQL 异步数据库驱动。
-* [asyncpgsa](https://github.com/CanopyTax/asyncpgsa) - sqlalchemy 核心支持的 Asyncpg。
-* [aiomysql](https://github.com/aio-libs/aiomysql) - Mysql 异步数据库驱动。
-* [aioodbc](https://github.com/aio-libs/aioodbc) - ODBC 异步数据库驱动。
-* [motor](https://github.com/mongodb/motor) - Python MongoDB 异步数据库驱动。
+* [asyncpg](https://github.com/MagicStack/asyncpg) - 快速访问 PostgreSQL 数据库客户端的异步驱动。
+* [asyncpgsa](https://github.com/CanopyTax/asyncpgsa) - 提供 Sqlalchemy Core 支持的 Asyncpg。
+* [aiopg](https://github.com/aio-libs/aiopg/) - 访问 PostgreSQL 数据库的异步驱动。
+* [aiomysql](https://github.com/aio-libs/aiomysql) - 访问 MySQL 数据库的异步驱动。
+* [aioodbc](https://github.com/aio-libs/aioodbc) - 访问 ODBC 数据库的异步驱动。
+* [motor](https://github.com/mongodb/motor) - 访问 MongoDB 数据库的异步驱动。
 * [aioredis](https://github.com/aio-libs/aioredis) - [aio-libs](https://github.com/aio-libs) 提供的异步 Redis 客户端 (PEP 3156)。
-* [asyncio-redis](https://github.com/jonathanslenders/asyncio-redis) - 另一个异步 Redis 客户端 (PEP 3156)。
-* [aiocouchdb](https://github.com/aio-libs/aiocouchdb) - 基于 aiohttp (asyncio) 构建的 CouchDB 客户端。
+* [asyncio-redis](https://github.com/jonathanslenders/asyncio-redis) - 访问 Redis 客户端 (PEP 3156)的异步驱动。
+* [aiocouchdb](https://github.com/aio-libs/aiocouchdb) - 基于 aiohttp (Asyncio) 构建的 CouchDB 客户端。
 * [aioinflux](https://github.com/plugaai/aioinflux) - 基于 aiohttp 构建的 InfluxDB 客户端。
-* [aioes](https://github.com/aio-libs/aioes) - Asyncio 兼容的 elasticsearch 驱动。
+* [aioes](https://github.com/aio-libs/aioes) - 兼容 elasticsearch 的 Asyncio 驱动。
 * [peewee-async](https://github.com/05bit/peewee-async) - 基于 [peewee](https://github.com/coleifer/peewee) 和 aiopg 实现的 ORM。
-* [GINO](https://github.com/fantix/gino) - 一个基于 [SQLAlchemy](https://www.sqlalchemy.org/) 核心，有着与 [asyncpg](https://github.com/MagicStack/asyncpg) 相同方言的 Python 轻量级异步 ORM。
+* [GINO](https://github.com/fantix/gino) - 基于 [SQLAlchemy](https://www.sqlalchemy.org/) Core 和 [asyncpg](https://github.com/MagicStack/asyncpg) 方言的轻量级 Python 异步 ORM。
 
 ## 网络
 
-*网络通讯*
+*网络通讯库*
 
-* [AsyncSSH](https://github.com/ronf/asyncssh) - 提供一个实现了 SSHv2 协议的异步客户端/服务端。
+* [AsyncSSH](https://github.com/ronf/asyncssh) - 提供执行 SSHv2 协议的异步客户端/服务端。
 
 ## 测试
 
-*测试基于 asyncio 的应用程序*
+*测试 Asyncio 应用程序的库*
 
-* [aiomock](https://github.com/nhumrich/aiomock/) - 支持异步 mock 方法。
+* [aiomock](https://github.com/nhumrich/aiomock/) - 支持异步的 Python mock 库。
 * [asynctest](https://github.com/Martiusweb/asynctest/) - 一个增强标准 unittest 包的测试库。
-* [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) - Pytest 的 asyncio 实现。
+* [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) - 支持 Asyncio 的 Pytest 库。
 
-## 事件循环
+## 备选事件循环
 
-*可供选择的 asyncio 事件循环*
+*备选的 Asyncio 循环库*
 
-* [uvloop](https://github.com/MagicStack/uvloop) - Pyhton 实现的构建于 libuv 之上的超快的 asyncio 事件循环。
-* [curio](https://github.com/dabeaz/curio) - 并发协程库。
+* [uvloop](https://github.com/MagicStack/uvloop) - 基于 libuv 实现的 Asyncio 事件循环库。
+* [curio](https://github.com/dabeaz/curio) - 协程并发库。
 
 ## 其他
 
-*其他优秀的 asnycio 资源库*
+*暂未归类的超赞 Asnycio 库*
 
-* [aiofiles](https://github.com/Tinche/aiofiles/) - 基于 asyncio，提供文件异步操作。
-* [aiodebug](https://github.com/qntln/aiodebug) - 一个小巧的测试库用于监控异步程序。
-* [aiorun](https://github.com/cjrh/aiorun) - 提供一个 `run()` 函数，可以处理通用的 asyncio 样板以及优雅的关闭事件驱动。
-* [aiozipkin](https://github.com/aio-libs/aiozipkin) - 分布式的基于 asyncio 的 zipkin 追踪仪器。
+* [aiofiles](https://github.com/Tinche/aiofiles/) - 基于 Asyncio，支持文件异步操作。
+* [aiodebug](https://github.com/qntln/aiodebug) - 用于监控和测试 Asyncio 程序的微型库。
+* [aiorun](https://github.com/cjrh/aiorun) - 提供处理通用 Asyncio 样板，启动和关闭事件驱动的 `run` 函数。
+* [aiozipkin](https://github.com/aio-libs/aiozipkin) - 使用 zipkin 的分布式 Asyncio 追踪测量仪。
 
-## 写作
+## 文献
 
-*关于 asyncio 的文档，文章以及博客*
+*关于 Asyncio 的文档、博客等文献*
 
-* [Official asyncio documentation](https://docs.python.org/3/library/asyncio.html) - 异步 I/O，事件循环，协程以及任务。 
-* [Short well-written intro to asyncio](http://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html) - 生成器，协程，原生协程以及 async/await。
-* [Async Through the looking Glass](https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661) - 关于是否值得使用 asyncio 的讨论，提供了一些具体例子。
-* [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434) - 介绍使用 Python 进行异步编程。
-* [AsyncIO for the Working Python Developer](https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e) - 介绍异步编程，使用基本的 URL 爬取作为例子。
-* [Test limits of Python aiohttp](https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html) - 使用 Python aiohttp 进行百万并发测试。
+* [Asyncio 官方文档](https://docs.python.org/3/library/asyncio.html) - 介绍了异步 I/O、事件循环、协程及任务等内容。
+* [Asyncio 精编简介](http://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html) - 生成器，协程，原生协程及 async/await。
+* [异步窥探](https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661) - 非常好的一篇文章，列出了哪些用例应该使用 Asyncio ，哪些用例无需使用 Asyncio。
+* [异步 Python](https://hackernoon.com/asynchronous-python-45df84b82434) - 介绍如何进行 Python 异步编程。
+* [用 Asyncio 进行 Python 开发](https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e) - 介绍异步编程的开发，从简单示例说起，一直到 URL 爬取。
+* [Python Aiohttp 的测试极限](https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html) - 使用 Python Aiohttp 进行百万量级的并发测试。
 
-## 视频
+## 演讲
 
-*关于 asyncio 的主题演讲*
+*关于 Asyncio 的主题演讲*
 
 * [Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU) - David Beazley 的主题演讲。
 * [Python Asynchronous I/O Walkthrough](https://www.youtube.com/playlist?list=PLpEcQSRWP2IjVRlTUptdD05kG-UkJynQT) - Philip Guo 的主题演讲。
