@@ -90,7 +90,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 * [uvloop](https://github.com/MagicStack/uvloop) - 基于 libuv 实现的 Asyncio 事件循环库。
 * [curio](https://github.com/dabeaz/curio) - 协程并发库。
-* [trio](https://github.com/python-trio/trio) - 人性化的符合 Python 编程习惯的异步 IO 库。
+* [trio](https://github.com/python-trio/trio) - 人性化的，Pythonic 的异步 IO 库。
 
 ## 其他
 
@@ -118,3 +118,5 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 * [Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU) - David Beazley 的主题演讲。
 * [Python Asynchronous I/O Walkthrough](https://www.youtube.com/playlist?list=PLpEcQSRWP2IjVRlTUptdD05kG-UkJynQT) - Philip Guo 的主题演讲。
+* [Thinking Outside the GIL with AsyncIO and Multiprocessing](https://www.youtube.com/watch?v=0kXaLh8Fz3k&t=1279s) - John Reese 的主题演讲
+* [Asynchronous Python for the Complete Beginner](https://www.youtube.com/watch?v=iG6fr81xHKA) - Miguel Grinberg 的主题演讲
