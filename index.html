@@ -1,0 +1,590 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="http://chenjiandongx/awesome-asyncio-cn/">
+      
+      
+        <meta name="author" content="chenjiandongx">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.languages" content="">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      
+        <link rel="shortcut icon" href="./assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.12.2">
+    
+    
+      
+        <title>Python asyncio 资源列表</title>
+      
+    
+    
+      <script src="./assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      <link rel="stylesheet" href="./assets/stylesheets/application-04ea671600.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://chenjiandongx/awesome-asyncio-cn/" title="Python asyncio 资源列表" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon md-icon--home"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            awesome-asyncio-cn
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/chenjiandongx/awesome-asyncio-cn/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      chenjiandongx/awesome-asyncio-cn/
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon md-icon--home"></i>
+      
+    </span>
+    Python asyncio 资源列表
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/chenjiandongx/awesome-asyncio-cn/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      chenjiandongx/awesome-asyncio-cn/
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        awesome-asyncio-cn
+      </label>
+    
+    <a href="." title="awesome-asyncio-cn" class="md-nav__link md-nav__link--active">
+      awesome-asyncio-cn
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="贡献代码" class="md-nav__link">
+    贡献代码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="目录" class="md-nav__link">
+    目录
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web" title="Web框架" class="md-nav__link">
+    Web框架
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="消息队列" class="md-nav__link">
+    消息队列
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="数据库驱动" class="md-nav__link">
+    数据库驱动
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="网络" class="md-nav__link">
+    网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" title="测试" class="md-nav__link">
+    测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" title="备选事件循环" class="md-nav__link">
+    备选事件循环
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" title="其他" class="md-nav__link">
+    其他
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" title="文献" class="md-nav__link">
+    文献
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" title="演讲" class="md-nav__link">
+    演讲
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="贡献代码" class="md-nav__link">
+    贡献代码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="目录" class="md-nav__link">
+    目录
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web" title="Web框架" class="md-nav__link">
+    Web框架
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="消息队列" class="md-nav__link">
+    消息队列
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" title="数据库驱动" class="md-nav__link">
+    数据库驱动
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="网络" class="md-nav__link">
+    网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" title="测试" class="md-nav__link">
+    测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" title="备选事件循环" class="md-nav__link">
+    备选事件循环
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" title="其他" class="md-nav__link">
+    其他
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" title="文献" class="md-nav__link">
+    文献
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" title="演讲" class="md-nav__link">
+    演讲
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="awesome-asyncio-cn">awesome-asyncio-cn <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
+<blockquote>
+<p>Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源。</p>
+</blockquote>
+<p><a href="https://github.com/timofurrer/awesome-asyncio">Awesome-asyncio</a> 是 <a href="https://github.com/timofurrer">Timo Furrer</a> 发起并维护的 Python Asyncio 资源列表。本项目是其中文版，在这里，收集了大量的 <a href="https://docs.python.org/3/library/asyncio.html">Asyncio</a> 的最棒、最新的资源，供大家探索 Python 异步编程世界。</p>
+<p>Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O 访问 Socket 和其他资源来编写单线程并发代码，并在网络客户端与服务器上运行。Asyncio 内置了对异步 I/O 的支持，其编程模型类似于消息循环，从 Asyncio 模块可以直接获取 EventLoop 引用，再把需要执行的协程放到 EventLoop 中执行，就实现了异步 I/O。Asyncio 是由 Python 之父 Guido 领导的项目，该项目被命名为 Tulip（郁金香）。</p>
+<p><a href="https://docs.python.org/3/library/asyncio.html">Asyncio</a> 并不是新出现的黑科技，一些社区有名的第三库如 Twisted、gevent 早就推出了异步编程模型。不过，自从 2016 年 3 月，Python 3.4 推出以后，这两年来，Asyncio 变得越来越流行，并且特别受到 Python 社区追捧。</p>
+<h2 id="_1">贡献代码</h2>
+<p>欢迎大家为列表贡献高质量的新资源，提交 PR 时请参照以下要求</p>
+<ul>
+<li>注明推荐理由</li>
+<li>确保项目相对活跃</li>
+</ul>
+<h2 id="_2">目录</h2>
+<ul>
+<li><a href="#Web框架">Web 框架</a></li>
+<li><a href="#消息队列">消息队列</a></li>
+<li><a href="#数据库驱动">数据库驱动</a></li>
+<li><a href="#网络">网络</a></li>
+<li><a href="#测试">测试</a></li>
+<li><a href="#备选事件循环">备选事件循环</a></li>
+<li><a href="#其他">其他</a></li>
+<li><a href="#文献">文献</a></li>
+<li><a href="#演讲">演讲</a></li>
+</ul>
+<h2 id="web">Web框架</h2>
+<p><em>构建 Web 应用的库</em></p>
+<ul>
+<li><a href="https://github.com/KeepSafe/aiohttp">aiohttp</a> - 支持 Asyncio (PEP-3156) 的 HTTP 客户端/服务端网络库。</li>
+<li><a href="https://github.com/channelcat/sanic">sanic</a> - Python 3.5+ Web 服务器，主打速度与性能。</li>
+<li><a href="https://gitlab.com/pgjones/quart">Quart</a> - 支持 Asyncio 的 Web 微框架，使用与 Flask 相同的 API。</li>
+<li><a href="https://github.com/SunDwarf/Kyoukai">Kyoukai</a> - 使用 Asyncio 编写的 Python3.5+ 完全异步 Web 框架。</li>
+<li><a href="https://github.com/neolynx/cirrina">cirrina</a> - 基于 aiohttp 的异步 Web 框架。</li>
+<li><a href="https://github.com/crossbario/autobahn-python">autobahn</a> - 支持 Asyncio 与 Twisted 的 WebSocket 及 WAMP，用于客户端与服务端。</li>
+<li><a href="https://github.com/aaugustin/websockets/">websockets</a> - Python 构建的 WebSocket 客户端/服务端的库，致力于简洁、正确地编写代码。</li>
+<li><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> - 高性能 Web 框架以及异步网络库。</li>
+<li><a href="https://github.com/squeaky-pl/japronto">Japronto!</a> - 基于 uvloop 和 picohttpparse 构建的实验性 HTTP 工具箱。</li>
+</ul>
+<h2 id="_3">消息队列</h2>
+<p><em>使用消息队列执行应用的库</em></p>
+<ul>
+<li><a href="https://github.com/Polyconseil/aioamqp">aioamqp</a> - 使用 Asyncio 异步执行 AMQP。</li>
+<li><a href="https://github.com/aio-libs/aiozmq">aiozmq</a> - 集成了 Asyncio (pep 3156) 的 ZeroMQ。</li>
+<li><a href="https://github.com/crossbario/crossbar">crossbar</a> - Crossbar.io 是提供分布式和微服务应用的网络平台。</li>
+</ul>
+<h2 id="_4">数据库驱动</h2>
+<p><em>数据库的驱动库</em></p>
+<ul>
+<li><a href="https://github.com/MagicStack/asyncpg">asyncpg</a> - 快速访问 PostgreSQL 数据库客户端的异步驱动。</li>
+<li><a href="https://github.com/CanopyTax/asyncpgsa">asyncpgsa</a> - 提供 Sqlalchemy Core 支持的 Asyncpg。</li>
+<li><a href="https://github.com/aio-libs/aiopg/">aiopg</a> - 访问 PostgreSQL 数据库的异步驱动。</li>
+<li><a href="https://github.com/aio-libs/aiomysql">aiomysql</a> - 访问 MySQL 数据库的异步驱动。</li>
+<li><a href="https://github.com/aio-libs/aioodbc">aioodbc</a> - 访问 ODBC 数据库的异步驱动。</li>
+<li><a href="https://github.com/mongodb/motor">motor</a> - 访问 MongoDB 数据库的异步驱动。</li>
+<li><a href="https://github.com/aio-libs/aioredis">aioredis</a> - <a href="https://github.com/aio-libs">aio-libs</a> 提供的异步 Redis 客户端 (PEP 3156)。</li>
+<li><a href="https://github.com/jonathanslenders/asyncio-redis">asyncio-redis</a> - 访问 Redis 客户端 (PEP 3156)的异步驱动。</li>
+<li><a href="https://github.com/aio-libs/aiocouchdb">aiocouchdb</a> - 基于 aiohttp (Asyncio) 构建的 CouchDB 客户端。</li>
+<li><a href="https://github.com/plugaai/aioinflux">aioinflux</a> - 基于 aiohttp 构建的 InfluxDB 客户端。</li>
+<li><a href="https://github.com/aio-libs/aioes">aioes</a> - 兼容 elasticsearch 的 Asyncio 驱动。</li>
+<li><a href="https://github.com/05bit/peewee-async">peewee-async</a> - 基于 <a href="https://github.com/coleifer/peewee">peewee</a> 和 aiopg 实现的 ORM。</li>
+<li><a href="https://github.com/fantix/gino">GINO</a> - 基于 <a href="https://www.sqlalchemy.org/">SQLAlchemy</a> Core 和 <a href="https://github.com/MagicStack/asyncpg">asyncpg</a> 方言的轻量级 Python 异步 ORM。</li>
+</ul>
+<h2 id="_5">网络</h2>
+<p><em>网络通讯库</em></p>
+<ul>
+<li><a href="https://github.com/ronf/asyncssh">AsyncSSH</a> - 提供执行 SSHv2 协议的异步客户端/服务端。</li>
+<li><a href="https://github.com/theelous3/asks">asks</a> - Asyncio 界的 <a href="https://github.com/requests/requests">requests</a>。</li>
+</ul>
+<h2 id="_6">测试</h2>
+<p><em>测试 Asyncio 应用程序的库</em></p>
+<ul>
+<li><a href="https://github.com/nhumrich/aiomock/">aiomock</a> - 支持异步的 Python mock 库。</li>
+<li><a href="https://github.com/Martiusweb/asynctest/">asynctest</a> - 一个增强标准 unittest 包的测试库。</li>
+<li><a href="https://github.com/pytest-dev/pytest-asyncio">pytest-asyncio</a> - 支持 Asyncio 的 Pytest 库。</li>
+</ul>
+<h2 id="_7">备选事件循环</h2>
+<p><em>备选的 Asyncio 循环库</em></p>
+<ul>
+<li><a href="https://github.com/MagicStack/uvloop">uvloop</a> - 基于 libuv 实现的 Asyncio 事件循环库。</li>
+<li><a href="https://github.com/dabeaz/curio">curio</a> - 协程并发库。</li>
+<li><a href="https://github.com/python-trio/trio">trio</a> - 人性化的符合 Python 编程习惯的异步 IO 库。</li>
+</ul>
+<h2 id="_8">其他</h2>
+<p><em>暂未归类的超赞 Asnycio 库</em></p>
+<ul>
+<li><a href="https://github.com/Tinche/aiofiles/">aiofiles</a> - 基于 Asyncio，支持文件异步操作。</li>
+<li><a href="https://github.com/qntln/aiodebug">aiodebug</a> - 用于监控和测试 Asyncio 程序的微型库。</li>
+<li><a href="https://github.com/cjrh/aiorun">aiorun</a> - 提供处理通用 Asyncio 样板，启动和关闭事件驱动的 <code>run</code> 函数。</li>
+<li><a href="https://github.com/aio-libs/aiozipkin">aiozipkin</a> - 使用 zipkin 的分布式 Asyncio 追踪测量仪。</li>
+</ul>
+<h2 id="_9">文献</h2>
+<p><em>关于 Asyncio 的文档、博客等文献</em></p>
+<ul>
+<li><a href="https://docs.python.org/3/library/asyncio.html">Asyncio 官方文档</a> - 介绍了异步 I/O、事件循环、协程及任务等内容。</li>
+<li><a href="http://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html">Asyncio 精编简介</a> - 生成器，协程，原生协程及 async/await。</li>
+<li><a href="https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661">异步窥探</a> - 非常好的一篇文章，列出了哪些用例应该使用 Asyncio ，哪些用例无需使用 Asyncio。</li>
+<li><a href="https://hackernoon.com/asynchronous-python-45df84b82434">异步 Python</a> - 介绍如何进行 Python 异步编程。</li>
+<li><a href="https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e">用 Asyncio 进行 Python 开发</a> - 介绍异步编程的开发，从简单示例说起，一直到 URL 爬取。</li>
+<li><a href="https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html">Python Aiohttp 的测试极限</a> - 使用 Python Aiohttp 进行百万量级的并发测试。</li>
+</ul>
+<h2 id="_10">演讲</h2>
+<p><em>关于 Asyncio 的主题演讲</em></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ZzfHjytDceU">Topics of Interest (Python Asyncio)</a> - David Beazley 的主题演讲。</li>
+<li><a href="https://www.youtube.com/playlist?list=PLpEcQSRWP2IjVRlTUptdD05kG-UkJynQT">Python Asynchronous I/O Walkthrough</a> - Philip Guo 的主题演讲。</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/chenjiandongx" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="./assets/javascripts/application-946997f430.js"></script>
+      
+      
+      <script>app.initialize({version:"0.16.3",url:{base:"."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
