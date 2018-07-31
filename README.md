@@ -18,7 +18,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 ## 目录
 
-* [Web 框架](#Web 框架)
+* [Web 框架](#Web框架)
 * [消息队列](#消息队列)
 * [数据库驱动](#数据库驱动)
 * [网络](#网络)
@@ -29,7 +29,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [演讲](#演讲)
 
 
-## Web 框架
+## Web框架
 
 *构建 Web 应用的库*
 
@@ -74,6 +74,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 *网络通讯库*
 
 * [AsyncSSH](https://github.com/ronf/asyncssh) - 提供执行 SSHv2 协议的异步客户端/服务端。
+* [asks](https://github.com/theelous3/asks) - Asyncio 界的 [requests](https://github.com/requests/requests)。
 
 ## 测试
 
@@ -89,6 +90,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 * [uvloop](https://github.com/MagicStack/uvloop) - 基于 libuv 实现的 Asyncio 事件循环库。
 * [curio](https://github.com/dabeaz/curio) - 协程并发库。
+* [trio](https://github.com/python-trio/trio) - 人性化的符合 Python 编程习惯的异步 IO 库。
 
 ## 其他
 
