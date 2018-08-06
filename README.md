@@ -75,7 +75,8 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 * [AsyncSSH](https://github.com/ronf/asyncssh) - 提供执行 SSHv2 协议的异步客户端/服务端。
 * [asks](https://github.com/theelous3/asks) - Asyncio 界的 [requests](https://github.com/requests/requests)。
-* [aioftp](https://github.com/aio-libs/aioftp) - 基于 Asyncio 的 ftp 服务
+* [aioftp](https://github.com/aio-libs/aioftp) - 基于 Asyncio 的 ftp 服务。
+* [aiodns](https://github.com/saghul/aiodns) - 简单的 Asyncio DNS 服务解析器。
 
 ## 测试
 
