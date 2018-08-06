@@ -85,6 +85,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aiomock](https://github.com/nhumrich/aiomock/) - 支持异步的 Python mock 库。
 * [asynctest](https://github.com/Martiusweb/asynctest/) - 一个增强标准 unittest 包的测试库。
 * [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) - 支持 Asyncio 的 Pytest 库。
+* [aioresponses](https://github.com/pnuckowski/aioresponses) - 一个适用于 aiohttp 的模拟请求库
 
 ## 备选事件循环
 
