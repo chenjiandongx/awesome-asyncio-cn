@@ -68,6 +68,8 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aioes](https://github.com/aio-libs/aioes) - 兼容 elasticsearch 的 Asyncio 驱动。
 * [peewee-async](https://github.com/05bit/peewee-async) - 基于 [peewee](https://github.com/coleifer/peewee) 和 aiopg 实现的 ORM。
 * [GINO](https://github.com/fantix/gino) - 基于 [SQLAlchemy](https://www.sqlalchemy.org/) Core 和 [asyncpg](https://github.com/MagicStack/asyncpg) 方言的轻量级 Python 异步 ORM。
+* [aiocache](https://github.com/argaen/aiocache) - 支持多个后端 (Memory、Redis 和 Memcached)的 Asyncio 缓存管理器。
+* [aiomcache](https://github.com/aio-libs/aiomcache) - 访问 Memcached 的 Asyncio(PEP 3156) 驱动库。
 
 ## 网络
 
@@ -104,6 +106,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aiorun](https://github.com/cjrh/aiorun) - 提供处理通用 Asyncio 样板，启动和关闭事件驱动的 `run` 函数。
 * [aiozipkin](https://github.com/aio-libs/aiozipkin) - 使用 zipkin 的分布式 Asyncio 追踪测量仪。
 * [faust](https://github.com/robinhood/faust) - 纯 Python 的流处理库，用于处理流数据和事件。
+* [paco](https://github.com/h2non/paco) - 协程驱动的异步类属编程的工具库 (Python +3.4)。
 
 ## 文献
 
