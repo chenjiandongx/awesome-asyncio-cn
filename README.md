@@ -24,6 +24,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [网络](#网络)
 * [测试](#测试)
 * [备选事件循环](#备选事件循环)
+* [并行](#并行)
 * [其他](#其他)
 * [文献](#文献)
 * [演讲](#演讲)
@@ -98,9 +99,16 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [curio](https://github.com/dabeaz/curio) - 协程并发库。
 * [trio](https://github.com/python-trio/trio) - 人性化的，Pythonic 的异步 IO 库。
 
+## 并行
+
+*并行异步编程的库*
+
+* [aioprocessing](https://github.com/dano/aioprocessing) - 结合 multiprocessing 与 Asyncio 的进程库，支持 Python3.4+。
+* [aiomultiprocess](https://github.com/jreese/aiomultiprocess) - 进一步提升异步性能的多进程库。
+
 ## 其他
 
-*暂未归类的超赞 Asnycio 库*
+*未归类的优秀 Asnycio 库*
 
 * [aiofiles](https://github.com/Tinche/aiofiles/) - 基于 Asyncio，支持文件异步操作。
 * [aiodebug](https://github.com/qntln/aiodebug) - 用于监控和测试 Asyncio 程序的微型库。
