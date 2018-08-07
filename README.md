@@ -1,6 +1,18 @@
-# awesome-asyncio-cn [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-> Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源。
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/19553554/43752023-efd9010c-9a31-11e8-80cc-4c4d9ad9de87.png" alt="Awesome" width="200" height="200"/>
+</p>
+<h1 align="center">Awesome-Asyncio-CN</h1>
+<p align="center">
+    <em>Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源</em>
+</p>
+<p align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+        <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome-list">
+    </a>
+    <a href="https://github.com/chenjiandongx/awesome-python-cn/issues">
+        <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions-welcome">
+    </a>
+</p>
 
 [Awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [Timo Furrer](https://github.com/timofurrer) 发起并维护的 Python Asyncio 资源列表。本项目是其中文版，在这里，收集了大量的 [Asyncio](https://docs.python.org/3/library/asyncio.html) 的最棒、最新的资源，供大家探索 Python 异步编程世界。
 
