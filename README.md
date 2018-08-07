@@ -68,17 +68,18 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aioes](https://github.com/aio-libs/aioes) - 兼容 elasticsearch 的 Asyncio 驱动。
 * [peewee-async](https://github.com/05bit/peewee-async) - 基于 [peewee](https://github.com/coleifer/peewee) 和 aiopg 实现的 ORM。
 * [GINO](https://github.com/fantix/gino) - 基于 [SQLAlchemy](https://www.sqlalchemy.org/) Core 和 [asyncpg](https://github.com/MagicStack/asyncpg) 方言的轻量级 Python 异步 ORM。
-* [aiocache](https://github.com/argaen/aiocache) - 支持多个后端 (Memory、Redis 和 Memcached)的 Asyncio 缓存管理器。
-* [aiomcache](https://github.com/aio-libs/aiomcache) - 访问 Memcached 的 Asyncio(PEP 3156) 驱动库。
+* [aiocache](https://github.com/argaen/aiocache) - 支持多个后端 (Memory、Redis 和 Memcached) 的 Asyncio 缓存管理器。
+* [aiomcache](https://github.com/aio-libs/aiomcache) - 访问 Memcached 的 Asyncio(PEP 3156) 驱动库。
 
 ## 网络
 
 *网络通讯库*
 
 * [AsyncSSH](https://github.com/ronf/asyncssh) - 提供执行 SSHv2 协议的异步客户端/服务端。
-* [asks](https://github.com/theelous3/asks) - Asyncio 界的 [requests](https://github.com/requests/requests)。
+* [asks](https://github.com/theelous3/asks) - 与 [requests](https://github.com/requests/requests) 接口相似的异步 HTTP 库。
 * [aioftp](https://github.com/aio-libs/aioftp) - 基于 Asyncio 的 ftp 服务。
 * [aiodns](https://github.com/saghul/aiodns) - 简单的 Asyncio DNS 服务解析器。
+* [websockets](https://github.com/aaugustin/websockets) 构建于 Asyncio 之上的异步 websockets 库。
 
 ## 测试
 
@@ -87,7 +88,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aiomock](https://github.com/nhumrich/aiomock/) - 支持异步的 Python mock 库。
 * [asynctest](https://github.com/Martiusweb/asynctest/) - 一个增强标准 unittest 包的测试库。
 * [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) - 支持 Asyncio 的 Pytest 库。
-* [aioresponses](https://github.com/pnuckowski/aioresponses) - 一个适用于 aiohttp 的模拟请求库
+* [aioresponses](https://github.com/pnuckowski/aioresponses) - 一个适用于 aiohttp 的模拟请求库。
 
 ## 备选事件循环
 
@@ -106,7 +107,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aiorun](https://github.com/cjrh/aiorun) - 提供处理通用 Asyncio 样板，启动和关闭事件驱动的 `run` 函数。
 * [aiozipkin](https://github.com/aio-libs/aiozipkin) - 使用 zipkin 的分布式 Asyncio 追踪测量仪。
 * [faust](https://github.com/robinhood/faust) - 纯 Python 的流处理库，用于处理流数据和事件。
-* [paco](https://github.com/h2non/paco) - 协程驱动的异步类属编程的工具库 (Python +3.4)。
+* [paco](https://github.com/h2non/paco) - 协程驱动的异步编程的工具库 (Python3.4+)。
 
 ## 文献
 
