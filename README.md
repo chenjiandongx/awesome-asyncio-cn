@@ -1,6 +1,18 @@
-# awesome-asyncio-cn [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-> Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源。
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/19553554/43752023-efd9010c-9a31-11e8-80cc-4c4d9ad9de87.png" alt="Awesome" width="200" height="200"/>
+</p>
+<h1 align="center">Awesome-Asyncio-CN</h1>
+<p align="center">
+    <em>Python Asyncio 精选资源列表，囊括了网络框架，库，软件等资源</em>
+</p>
+<p align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+        <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome-list">
+    </a>
+    <a href="https://github.com/chenjiandongx/awesome-python-cn/issues">
+        <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions-welcome">
+    </a>
+</p>
 
 [Awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [Timo Furrer](https://github.com/timofurrer) 发起并维护的 Python Asyncio 资源列表。本项目是其中文版，在这里，收集了大量的 [Asyncio](https://docs.python.org/3/library/asyncio.html) 的最棒、最新的资源，供大家探索 Python 异步编程世界。
 
@@ -24,6 +36,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [网络](#网络)
 * [测试](#测试)
 * [备选事件循环](#备选事件循环)
+* [并行](#并行)
 * [其他](#其他)
 * [文献](#文献)
 * [演讲](#演讲)
@@ -68,15 +81,19 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aioes](https://github.com/aio-libs/aioes) - 兼容 elasticsearch 的 Asyncio 驱动。
 * [peewee-async](https://github.com/05bit/peewee-async) - 基于 [peewee](https://github.com/coleifer/peewee) 和 aiopg 实现的 ORM。
 * [GINO](https://github.com/fantix/gino) - 基于 [SQLAlchemy](https://www.sqlalchemy.org/) Core 和 [asyncpg](https://github.com/MagicStack/asyncpg) 方言的轻量级 Python 异步 ORM。
-* [aiocache](https://github.com/argaen/aiocache) - 支持多个后端 (Memory、Redis 和 Memcached)的 Asyncio 缓存管理器。
-* [aiomcache](https://github.com/aio-libs/aiomcache) - 访问 Memcached 的 Asyncio(PEP 3156) 驱动库。
+* [aiocache](https://github.com/argaen/aiocache) - 支持多个后端 (Memory、Redis 和 Memcached) 的 Asyncio 缓存管理器。
+* [aiomcache](https://github.com/aio-libs/aiomcache) - 访问 Memcached 的 Asyncio(PEP 3156) 驱动库。
+
 
 ## 网络
 
 *网络通讯库*
 
 * [AsyncSSH](https://github.com/ronf/asyncssh) - 提供执行 SSHv2 协议的异步客户端/服务端。
-* [asks](https://github.com/theelous3/asks) - Asyncio 界的 [requests](https://github.com/requests/requests)。
+* [asks](https://github.com/theelous3/asks) - 与 [requests](https://github.com/requests/requests) 接口相似的异步 HTTP 库。
+* [aioftp](https://github.com/aio-libs/aioftp) - 基于 Asyncio 的 ftp 服务。
+* [aiodns](https://github.com/saghul/aiodns) - 简单的 Asyncio DNS 服务解析器。
+* [websockets](https://github.com/aaugustin/websockets) 构建于 Asyncio 之上的异步 websockets 库。
 
 ## 测试
 
@@ -85,6 +102,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aiomock](https://github.com/nhumrich/aiomock/) - 支持异步的 Python mock 库。
 * [asynctest](https://github.com/Martiusweb/asynctest/) - 一个增强标准 unittest 包的测试库。
 * [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio) - 支持 Asyncio 的 Pytest 库。
+* [aioresponses](https://github.com/pnuckowski/aioresponses) - 一个适用于 aiohttp 的模拟请求库。
 
 ## 备选事件循环
 
@@ -94,16 +112,23 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [curio](https://github.com/dabeaz/curio) - 协程并发库。
 * [trio](https://github.com/python-trio/trio) - 人性化的，Pythonic 的异步 IO 库。
 
+## 并行
+
+*并行异步编程的库*
+
+* [aioprocessing](https://github.com/dano/aioprocessing) - 结合 multiprocessing 与 Asyncio 的进程库，支持 Python3.4+。
+* [aiomultiprocess](https://github.com/jreese/aiomultiprocess) - 进一步提升异步性能的多进程库。
+
 ## 其他
 
-*暂未归类的超赞 Asnycio 库*
+*未归类的优秀 Asnycio 库*
 
 * [aiofiles](https://github.com/Tinche/aiofiles/) - 基于 Asyncio，支持文件异步操作。
 * [aiodebug](https://github.com/qntln/aiodebug) - 用于监控和测试 Asyncio 程序的微型库。
 * [aiorun](https://github.com/cjrh/aiorun) - 提供处理通用 Asyncio 样板，启动和关闭事件驱动的 `run` 函数。
 * [aiozipkin](https://github.com/aio-libs/aiozipkin) - 使用 zipkin 的分布式 Asyncio 追踪测量仪。
 * [faust](https://github.com/robinhood/faust) - 纯 Python 的流处理库，用于处理流数据和事件。
-* [paco](https://github.com/h2non/paco) - 协程驱动的异步类属编程的工具库 (Python +3.4)。
+* [paco](https://github.com/h2non/paco) - 协程驱动的异步编程的工具库 (Python3.4+)。
 
 ## 文献
 
