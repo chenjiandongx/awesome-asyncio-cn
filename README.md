@@ -115,6 +115,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [异步 Python](https://hackernoon.com/asynchronous-python-45df84b82434) - 介绍如何进行 Python 异步编程。
 * [用 Asyncio 进行 Python 开发](https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e) - 介绍异步编程的开发，从简单示例说起，一直到 URL 爬取。
 * [Python Aiohttp 的测试极限](https://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html) - 使用 Python Aiohttp 进行百万量级的并发测试。
+* [Python Asyncio 入门介绍](https://hackernoon.com/a-simple-introduction-to-pythons-asyncio-595d9c9ecf8c) - 通俗易懂的 Python asyncio 库入门介绍。
 
 ## 演讲
 
