@@ -34,6 +34,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [消息队列](#消息队列)
 * [数据库驱动](#数据库驱动)
 * [网络](#网络)
+* [爬虫](#爬虫)
 * [测试](#测试)
 * [备选事件循环](#备选事件循环)
 * [并行](#并行)
@@ -55,6 +56,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [websockets](https://github.com/aaugustin/websockets/) - Python 构建的 WebSocket 客户端/服务端的库，致力于简洁、正确地编写代码。
 * [Tornado](http://www.tornadoweb.org/en/stable/) - 高性能 Web 框架以及异步网络库。
 * [Japronto!](https://github.com/squeaky-pl/japronto) - 基于 uvloop 和 picohttpparse 构建的实验性 HTTP 工具箱。
+* [uvicorn](https://github.com/encode/uvicorn) - 轻量级的，快速的 ASGI 服务器。
 
 ## 消息队列
 
@@ -93,6 +95,12 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [aioftp](https://github.com/aio-libs/aioftp) - 基于 Asyncio 的 ftp 服务。
 * [aiodns](https://github.com/saghul/aiodns) - 简单的 Asyncio DNS 服务解析器。
 * [websockets](https://github.com/aaugustin/websockets) 构建于 Asyncio 之上的异步 websockets 库。
+
+## 爬虫
+
+*应用于网络爬虫的库*
+
+* [gain](https://github.com/gaojiuli/gain) 基于 Asycnio 的网络爬虫框架。
 
 ## 测试
 
