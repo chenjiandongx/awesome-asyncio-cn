@@ -14,7 +14,7 @@
     </a>
 </p>
 
-[Awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [Timo Furrer](https://github.com/timofurrer) 发起并维护的 Python Asyncio 资源列表。本项目是其中文版，在这里，收集了大量的 [Asyncio](https://docs.python.org/3/library/asyncio.html) 的最棒、最新的资源，供大家探索 Python 异步编程世界。
+[Awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) 是 [Timo Furrer](https://github.com/timofurrer) 发起并维护的 Python Asyncio 资源列表。我觉得这个是很赞的想法，所以维护了一个中文版本的，在这里，收集了大量的 [Asyncio](https://docs.python.org/3/library/asyncio.html) 的最棒、最新的资源，供大家探索 Python 异步编程世界。
 
 Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O 访问 Socket 和其他资源来编写单线程并发代码，并在网络客户端与服务器上运行。Asyncio 内置了对异步 I/O 的支持，其编程模型类似于消息循环，从 Asyncio 模块可以直接获取 EventLoop 引用，再把需要执行的协程放到 EventLoop 中执行，就实现了异步 I/O。Asyncio 是由 Python 之父 Guido 领导的项目，该项目被命名为 Tulip（郁金香）。
 
@@ -100,8 +100,8 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 *应用于网络爬虫的库*
 
-* [gain](https://github.com/gaojiuli/gain) 基于 Asycnio 的网络爬虫框架。
-* [aspider](https://github.com/howie6879/aspider) 基于 asyncio 和 aiohttp 的网络爬虫框架。
+* [gain](https://github.com/gaojiuli/gain) - 基于 Asycnio 的网络爬虫框架。
+* [aspider](https://github.com/howie6879/aspider) - 基于 Asyncio 和 aiohttp 的网络爬虫框架。
 
 ## 测试
 
