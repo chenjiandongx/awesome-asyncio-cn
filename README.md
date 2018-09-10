@@ -101,6 +101,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 *应用于网络爬虫的库*
 
 * [gain](https://github.com/gaojiuli/gain) 基于 Asycnio 的网络爬虫框架。
+* [aspider](https://github.com/howie6879/aspider) 基于 asyncio 和 aiohttp 的网络爬虫框架。
 
 ## 测试
 
