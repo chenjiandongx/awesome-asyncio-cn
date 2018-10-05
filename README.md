@@ -126,6 +126,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 
 * [aioprocessing](https://github.com/dano/aioprocessing) - 结合 multiprocessing 与 Asyncio 的进程库，支持 Python3.4+。
 * [aiomultiprocess](https://github.com/jreese/aiomultiprocess) - 进一步提升异步性能的多进程库。
+* [asynq](https://github.com/quora/asynq) - Quora 出品的 Python 异步编程库。
 
 ## 其他
 
