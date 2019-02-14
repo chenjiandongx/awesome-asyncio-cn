@@ -140,6 +140,7 @@ Python 3.4 引入了 Asyncio 模块作为标准库，通过协程、多路 I/O �
 * [faust](https://github.com/robinhood/faust) - 纯 Python 的流处理库，用于处理流数据和事件。
 * [paco](https://github.com/h2non/paco) - 协程驱动的异步编程的工具库 (Python3.4+)。
 * [aiortc](https://github.com/jlaine/aiortc) - 使用 Python asyncio 实现的 WebRTC 和 ORTC。
+* [aiotools](https://github.com/achimnol/aiotools) - 通用的 Asyncio 工具集。
 
 ## 文献
 
